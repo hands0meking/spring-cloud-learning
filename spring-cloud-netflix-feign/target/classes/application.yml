@@ -1,8 +1,0 @@
-server:
-  port: 9100
-spring:
-  application:
-    name: my-feign
-eureka:
-  instance:
-    appname: my-feign
