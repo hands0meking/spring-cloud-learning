@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: loadbalance
+  application:
+    name: consumer
+server:
+  servlet:
+    context-path: /consumer
+  port: 9001
+eureka:
+  instance:
+    appname: consumer
+  client:
+    defaultZone: http://localhost:8761/eureka/

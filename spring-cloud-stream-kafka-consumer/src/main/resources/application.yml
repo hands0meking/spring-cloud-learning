@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: gao
+          group: ABC
+      kafka:
+        binder:
+          brokers: 10.0.10.200
+          defaultBrokerPort: 9092
+          consumerProperties:
+            auto:
+              offset:
+                reset: latest
+
+

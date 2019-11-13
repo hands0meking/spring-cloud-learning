@@ -1,0 +1,8 @@
+server:
+  port: 8903
+
+eureka:
+  instance:
+    appname: provicer3
+  client:
+    defaultZone: http://localhost:8761/eureka/

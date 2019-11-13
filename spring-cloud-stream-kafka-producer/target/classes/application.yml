@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: gao
+      kafka:
+        binder:
+          brokers: 10.0.10.200
+          defaultBrokerPort: 9092
+
+
