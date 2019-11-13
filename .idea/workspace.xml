@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1679205c-6193-46e8-8aaa-9c84666e53f0" name="Default" comment="" />
+    <list default="true" id="1679205c-6193-46e8-8aaa-9c84666e53f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-netflix-eureka-server/target/" />
@@ -29,7 +32,15 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1188" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +90,9 @@
       <dir>E:\maven\huaweicloud\repository\com\netflix\eureka\eureka-core\1.9.8\eureka-core-1.9.8.jar</dir>
       <dir>E:\tranning-workspace\spring-cloud</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,6 +186,7 @@
     <option name="width" value="1887" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -209,6 +224,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -400,12 +416,12 @@
       <workItem from="1572600625554" duration="2427000" />
       <workItem from="1572833261265" duration="44273000" />
       <workItem from="1573347140694" duration="44448000" />
-      <workItem from="1573632424010" duration="1080000" />
+      <workItem from="1573632424010" duration="1975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92228000" />
+    <option name="totallyTimeSpent" value="93123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +433,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43361884" side_tool="true" weight="0.55530727" />
@@ -435,13 +451,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56638116" weight="0.51173186" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.97206706" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
@@ -451,7 +468,6 @@
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,13 +498,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/provisioning/KafkaTopicProvisioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven/huaweicloud/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1149">
@@ -835,6 +844,11 @@
         <state relative-caret-position="52">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188" />
       </provider>
     </entry>
   </component>
