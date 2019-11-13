@@ -1,0 +1,4 @@
+spring:
+  could:
+    config:
+      test-name: gaoqj
