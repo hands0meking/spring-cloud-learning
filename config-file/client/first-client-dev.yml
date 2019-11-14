@@ -1,5 +1,0 @@
-server:
-  port: 8084
-gao:
-  user:
-    name: first config client
