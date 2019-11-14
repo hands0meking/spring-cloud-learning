@@ -144,22 +144,3 @@ local.properties
 
 .gitignore
 .idea/vcs.xml
-javaEE-test/src/main/resources/
-javaEE-test/src/test/
-javaEE-test/target/generated-sources/
-spring-cloud-config-client/src/
-spring-cloud-config-server/src/test/
-spring-cloud-consumer/src/test/
-spring-cloud-consumer/target/generated-sources/
-spring-cloud-netflix-eureka-client/src/test/
-spring-cloud-netflix-eureka-client/target/generated-sources/
-spring-cloud-netflix-eureka-server/src/test/
-spring-cloud-netflix-eureka-server/target/generated-sources/
-spring-cloud-netflix-feign/src/test/
-spring-cloud-netflix-feign/target/generated-sources/
-spring-cloud-provicer/src/test/
-spring-cloud-provicer/target/generated-sources/
-spring-cloud-stream-kafka-consumer/src/test/
-spring-cloud-stream-kafka-consumer/target/generated-sources/
-spring-cloud-stream-kafka-producer/src/test/
-spring-cloud-stream-kafka-producer/target/generated-sources/
