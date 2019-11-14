@@ -4,3 +4,4 @@ spring:
   could:
     config:
       test-name: '{cipher}7775883b51aff12514774b0175d5e536a84b2edacb1b3ef518515edfd287bf06'
+      test-url: '{cipher}5091deb41d6d9d2dc799fafd3721997dd9beb59f89d4e1860853c2d853a0b317d0e8703b0c2e41b7d2f39ed2df0b840cfe2d75148652e3d76b39597ff7451ec4cd66443ac3bb1596dc359ba5885536a3'
