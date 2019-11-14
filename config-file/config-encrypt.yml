@@ -5,3 +5,5 @@ spring:
     config:
       test-name: '{cipher}7775883b51aff12514774b0175d5e536a84b2edacb1b3ef518515edfd287bf06'
       test-url: '{cipher}3d6bacbbcf3068728529ce3af894fcaf63a41a702aac43abdc8be8df977312083c60e6bf70c1c880d9b6b280820ed254bc037103c42247d2d38d006d04f37185866898575b7065ce35c686603abdff6f0d3381cfc97c3921f0a086c1bd04a3fd'
+#      使用自定义命令：curl -H Content-Type:application/x-www-form-urlencoded 10.6.13.81:8888/encrypt -d https://shs-ms.sf-express.com/webService/bspOrder?name=gaoqj
+      test-url2: '{cipher}33cae56f77f6befa10e94fd6bf6875ba25f289d814aebb6049a2243c5b24d8adea5fd69c57aff0d9228f4329eaf1d8dccac5b6a25b55194922f998e3d8bbd3fe41fb425413424332bdb6fbf3fa5f8ecd6def5b452fb59e8a869ba87df846ca8f'
