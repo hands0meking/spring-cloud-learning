@@ -3,4 +3,4 @@ server:
 spring:
   could:
     config:
-      test-name: gaoqj
+      test-name: '{cipher}7775883b51aff12514774b0175d5e536a84b2edacb1b3ef518515edfd287bf06'
