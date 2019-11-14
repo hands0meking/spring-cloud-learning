@@ -4,4 +4,4 @@ spring:
   could:
     config:
       test-name: gaoqj
-      test-url: https://shs-ms.sf-express.com/webService/bspOrder
+      test-url: https://shs-ms.sf-express.com/webService/bspOrder?name=gaoqj
