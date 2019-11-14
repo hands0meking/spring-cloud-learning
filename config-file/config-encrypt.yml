@@ -1,0 +1,6 @@
+server:
+    port: 8081
+spring:
+  could:
+    config:
+      test-name: gaoqj
