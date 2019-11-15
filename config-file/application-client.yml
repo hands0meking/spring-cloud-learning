@@ -3,3 +3,5 @@ server:
 gao:
   user:
     name: gaoqj
+    age: 28
+    sex: boy
