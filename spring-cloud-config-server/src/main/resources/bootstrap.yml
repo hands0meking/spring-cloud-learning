@@ -1,1 +1,33 @@
-spring.config.name=configserver
+server:
+  port: 8888
+spring:
+  security:
+    user:
+      name: gaoqj
+      password: gaoqj
+  application:
+    name: my-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hands0meking/spring-cloud-learning
+#          项目配置所在路径
+          search-paths: config-file
+#          删除未跟踪的分支，同步远程git
+          delete-untracked-branches: true
+#          其实这个会在本地clone一份
+          basedir: F://spring-cloud-config-repository
+        health:
+          repositories:
+            repo1:
+              name: server
+              profiles: test
+#  内容加密的秘钥
+encrypt:
+  key: gaoqj123
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

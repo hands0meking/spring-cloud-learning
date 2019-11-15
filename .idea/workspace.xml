@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1679205c-6193-46e8-8aaa-9c84666e53f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config-file/config-test.txt" afterDir="false" />
+    <list default="true" id="1679205c-6193-46e8-8aaa-9c84666e53f0" name="Default" comment="加密管理">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/config-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-netflix-eureka-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +26,7 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-config/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,38 +39,27 @@
       <FILTER>org.gao.stream.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/config-test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="491">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -75,31 +67,91 @@
       <file leaf-file-name="ConfigServerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configserver.yml" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE.jar!/configserver.yml">
+      <file leaf-file-name="ConfigClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="88">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefreshScope.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-context/2.1.0.RELEASE/spring-cloud-context-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaClientAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="309" column="61" selection-start-line="309" selection-start-column="61" selection-end-line="309" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-client-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-file/application-client-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebEndpointProperties.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.4.RELEASE/spring-boot-actuator-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/WebEndpointProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+              <folding>
+                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="e#2642#2643#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="77">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -116,19 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>binder</find>
-      <find>server</find>
-      <find>bootstrap.servers</find>
-      <find>bootstrap</find>
-      <find>setProducerProperties</find>
-      <find>DEFAULT_KAFKA_CONNECTION_STRING</find>
-      <find>KafkaProducerProperties</find>
-      <find>producer</find>
-      <find>output</find>
-      <find>MessageChannel</find>
-      <find>send</find>
-      <find>topic</find>
-      <find>bindingServiceProperties</find>
       <find>getdest</find>
       <find>BindingProperties</find>
       <find>gao</find>
@@ -146,6 +185,19 @@
       <find>cosumer</find>
       <find>consumerpro</find>
       <find>consumerProperties</find>
+      <find>https://github.com/hands0meking/spring-cloud-learning/tree/master/config-file</find>
+      <find>ui</find>
+      <find>uri</find>
+      <find>deke</find>
+      <find>repo1</find>
+      <find>details</find>
+      <find>repository</find>
+      <find>enabled</find>
+      <find>encrypt</find>
+      <find>fetch</find>
+      <find>base</find>
+      <find>bus-env</find>
+      <find>management.sec</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -156,25 +208,19 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="15989320823@163.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response25.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/org/consumer/config/LoadBalanceConfig.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application-loadbalance.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-provicer/src/main/java/org/gao/provicer/controller/CallController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/org/consumer/controller/FirstController.java" />
-        <option value="$PROJECT_DIR$/javaEE-test/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/controller/FeignClient.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/controller/ProducerClient.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-provicer/src/main/java/org/gao/provicer/controller/UrlController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-provicer/src/main/resources/application-multiple.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/client/ProducerClient.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/client/UrlClient.java" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/entity/Person.java" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix-feign/src/main/java/org/feign/FeignApplication.java" />
@@ -204,14 +250,28 @@
         <option value="$PROJECT_DIR$/spring-cloud-stream-kafka-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-stream-kafka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-provicer/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config-file/config-test.txt" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-netflix-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/org/gao/cloud/config/server/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config-file/config-client.yml" />
+        <option value="$PROJECT_DIR$/config-file/config-encrypt.yml" />
+        <option value="$PROJECT_DIR$/config-file/client/first-client-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-file/health/server-test.yml" />
+        <option value="$PROJECT_DIR$/config-file/application-client-test.yml" />
+        <option value="$PROJECT_DIR$/config-file/application-client.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-file/application-client-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
       </list>
     </option>
   </component>
@@ -269,6 +329,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +346,54 @@
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +436,16 @@
               <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,13 +455,140 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -352,7 +598,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,17 +606,18 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="KafkaBinderConfigurationProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaBinderConfigurationProperties.java&#10;BindingServiceProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java&#10;kafkaconsumer&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaConsumerProperties.java&#10;producerpro&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaProducerProperties.java&#10;KafkaExtendedBindingProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaExtendedBindingProperties.java&#10;BindingProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingProperties.java&#10;ConsumerConfig&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.ConsumerConfig&#10;org.springframework.cloud.stream.binder.ConsumerProperties&#9;PSI&#9;JAVA://org.springframework.cloud.stream.binder.ConsumerProperties&#10;KafkaTopicProvisioner&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/provisioning/KafkaTopicProvisioner.java&#10;IntegrationMBeanExporter&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/integration/spring-integration-jmx/5.1.4.RELEASE/spring-integration-jmx-5.1.4.RELEASE-sources.jar!/org/springframework/integration/monitor/IntegrationMBeanExporter.java&#10;org.springframework.cloud.stream.config.BindingServiceProperties&#9;PSI&#9;JAVA://org.springframework.cloud.stream.config.BindingServiceProperties&#10;KafkaBinderConfiguration&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/config/KafkaBinderConfiguration.java&#10;Processor&#9;PSI&#9;JAVA://javax.annotation.processing.Processor&#10;Sink&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/messaging/Sink.java&#10;Source&#9;PSI&#9;JAVA://javax.xml.transform.Source&#10;producer.j&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar!/rx/Producer.java&#10;FeignClientConfig&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsConfiguration.java&#10;Person&#9;FILE&#9;file://E:/tranning-workspace/spring-cloud/spring-cloud-netflix-feign/src/main/java/org/feign/entity/Person.java&#10;DiscoveryClientOptionalArgs &#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient.DiscoveryClientOptionalArgs&#10;ClientFilter&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-sources.jar!/com/sun/jersey/api/client/filter/ClientFilter.java" />
+    <property name="SearchEverywhereHistoryKey" value="favicon.ico&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/favicon.ico&#10;ConfigServicePropertySourceLocator&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-client/2.1.0.RELEASE/spring-cloud-config-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/client/ConfigServicePropertySourceLocator.java&#10;CompositeEnvironmentRepository&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/CompositeEnvironmentRepository.java&#10;configserver&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE.jar!/configserver.yml&#10;KafkaBinderConfigurationProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaBinderConfigurationProperties.java&#10;BindingServiceProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java&#10;kafkaconsumer&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaConsumerProperties.java&#10;producerpro&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaProducerProperties.java&#10;KafkaExtendedBindingProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaExtendedBindingProperties.java&#10;BindingProperties&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingProperties.java&#10;ConsumerConfig&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.ConsumerConfig&#10;org.springframework.cloud.stream.binder.ConsumerProperties&#9;PSI&#9;JAVA://org.springframework.cloud.stream.binder.ConsumerProperties&#10;KafkaTopicProvisioner&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/provisioning/KafkaTopicProvisioner.java&#10;IntegrationMBeanExporter&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/integration/spring-integration-jmx/5.1.4.RELEASE/spring-integration-jmx-5.1.4.RELEASE-sources.jar!/org/springframework/integration/monitor/IntegrationMBeanExporter.java&#10;org.springframework.cloud.stream.config.BindingServiceProperties&#9;PSI&#9;JAVA://org.springframework.cloud.stream.config.BindingServiceProperties&#10;KafkaBinderConfiguration&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/config/KafkaBinderConfiguration.java&#10;Processor&#9;PSI&#9;JAVA://javax.annotation.processing.Processor&#10;Sink&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/messaging/Sink.java&#10;Source&#9;PSI&#9;JAVA://javax.xml.transform.Source&#10;producer.j&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar!/rx/Producer.java&#10;FeignClientConfig&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsConfiguration.java&#10;Person&#9;FILE&#9;file://E:/tranning-workspace/spring-cloud/spring-cloud-netflix-feign/src/main/java/org/feign/entity/Person.java&#10;DiscoveryClientOptionalArgs &#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient.DiscoveryClientOptionalArgs&#10;ClientFilter&#9;FILE&#9;jar://E:/maven/huaweicloud/repository/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-sources.jar!/com/sun/jersey/api/client/filter/ClientFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/workspaces/ydj-interface" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.31305903" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -385,12 +631,202 @@
       <recent name="org.consumer.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tranning-workspace\spring-cloud\config-file" />
       <recent name="E:\tranning-workspace\spring-cloud\spring-cloud-stream-kafka-producer\src\main\resources" />
       <recent name="E:\tranning-workspace\spring-cloud\spring-cloud-provicer\src\main\resources" />
       <recent name="E:\tranning-workspace\spring-cloud\spring-cloud-netflix-eureka-server\src\main\java\org\gao\train\eurake\server\config" />
       <recent name="E:\tranning-workspace\spring-cloud\spring-cloud-netflix-eureka-client\src\main\resources" />
-      <recent name="E:\tranning-workspace\spring-cloud\spring-cloud-netflix-eureka-server\src\main\resources" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="7C25981D862A543F3516595D4782ACC0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8083" />
+          <option name="urlPath" value="/bus/refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="7C25981D862A543F3516595D4782ACC0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8083" />
+          <option name="urlPath" value="/actuator/bus-refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="7C25981D862A543F3516595D4782ACC0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8083" />
+          <option name="urlPath" value="bus-refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="7C25981D862A543F3516595D4782ACC0" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="bus-refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="actuator/bus-refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8083" />
+          <option name="urlPath" value="actuator/bus-refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8083" />
+          <option name="urlPath" value="refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,18 +840,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KafkaConsumerApplication">
-    <configuration name="FeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.feign.FeignApplication" />
-      <module name="spring-cloud-netflix-feign" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.feign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
     <configuration name="KafkaConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gao.stream.KafkaConsumerApplication" />
       <module name="spring-cloud-stream-kafka-consumer" />
@@ -429,17 +854,6 @@
     </configuration>
     <configuration name="KafkaProducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.train.javaEE.KafkaProducerTest" />
-      <module name="javaEE-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.train.javaEE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LoadBalanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.train.javaEE.LoadBalanceTest" />
       <module name="javaEE-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -467,6 +881,26 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gao.config.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gao.config.client.ConfigClientApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gao.cloud.config.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gao.cloud.config.server.ConfigServerApplication" />
     </configuration>
     <configuration name="EurakeServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-netflix-eureka-server" />
@@ -533,19 +967,19 @@
       <item itemvalue="Spring Boot.EurakeServerApplication" />
       <item itemvalue="Spring Boot.producer2" />
       <item itemvalue="Spring Boot.producer3" />
-      <item itemvalue="Application.LoadBalanceTest" />
-      <item itemvalue="Application.FeignApplication" />
       <item itemvalue="Application.KafkaConsumerApplication" />
       <item itemvalue="Application.KafkaProducerTest" />
       <item itemvalue="Spring Boot.KafkaProducerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Application.KafkaConsumerApplication" />
         <item itemvalue="Spring Boot.KafkaProducerApplication" />
         <item itemvalue="Application.KafkaProducerTest" />
-        <item itemvalue="Application.FeignApplication" />
-        <item itemvalue="Application.LoadBalanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +996,8 @@
       <workItem from="1572600625554" duration="2427000" />
       <workItem from="1572833261265" duration="44273000" />
       <workItem from="1573347140694" duration="44448000" />
-      <workItem from="1573632424010" duration="3348000" />
+      <workItem from="1573632424010" duration="19582000" />
+      <workItem from="1573719182093" duration="12637000" />
     </task>
     <task id="LOCAL-00001" summary="添加ignore文件">
       <created>1573637288789</created>
@@ -578,11 +1013,123 @@
       <option name="project" value="LOCAL" />
       <updated>1573637344159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加测试使用的配置文件 config-test.txt">
+      <created>1573638774155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573638774155</updated>
+    </task>
+    <task id="LOCAL-00004" summary="加密管理">
+      <created>1573719687685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573719687685</updated>
+    </task>
+    <task id="LOCAL-00005" summary="加密">
+      <created>1573719776487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573719776487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="urlencode">
+      <created>1573720217514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573720217514</updated>
+    </task>
+    <task id="LOCAL-00007" summary="加密管理">
+      <created>1573720298621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573720298621</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加-H 自定义属性">
+      <created>1573723446410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573723446410</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加客户端的配置">
+      <created>1573723599067</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573723599067</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试客户端的[profiles]、[label]属性">
+      <created>1573724207228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724207228</updated>
+    </task>
+    <task id="LOCAL-00011" summary="加密管理">
+      <created>1573724573450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724573450</updated>
+    </task>
+    <task id="LOCAL-00012" summary="加密管理">
+      <created>1573724993918</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724993918</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改配置">
+      <created>1573784932510</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573784932510</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改配置文件">
+      <created>1573787461215</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573787461215</updated>
+    </task>
+    <task id="LOCAL-00015" summary="加密管理">
+      <created>1573787573675</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573787573675</updated>
+    </task>
+    <task id="LOCAL-00016" summary="加密管理">
+      <created>1573787826805</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573787826805</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改配置">
+      <created>1573789312923</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573789312923</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refresh">
+      <created>1573798916082</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573798916082</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94496000" />
+    <option name="totallyTimeSpent" value="123367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,38 +1145,39 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43361884" side_tool="true" weight="0.55530727" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43415418" side_tool="true" weight="0.32290503" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32976446" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32976446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52290505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5217877" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32849163" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56638116" weight="0.5111857" />
+      <window_info active="true" anchor="bottom" id="REST Client" visible="true" weight="0.41899443" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56584585" weight="0.32290503" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.97206706" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36884367" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5363129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36884367" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +1189,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加ignore文件" />
     <MESSAGE value="删除没用的class文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除没用的class文件" />
+    <MESSAGE value="添加测试使用的配置文件 config-test.txt" />
+    <MESSAGE value="加密" />
+    <MESSAGE value="urlencode" />
+    <MESSAGE value="添加-H 自定义属性" />
+    <MESSAGE value="添加客户端的配置" />
+    <MESSAGE value="测试客户端的[profiles]、[label]属性" />
+    <MESSAGE value="修改配置文件" />
+    <MESSAGE value="加密管理" />
+    <MESSAGE value="修改配置" />
+    <MESSAGE value="refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,11 +1210,41 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentProperties.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/SearchPathLocator.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/AbstractScmEnvironmentRepository.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="28" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -665,263 +1253,187 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/kafka/KafkaProperties.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-client/2.1.0.RELEASE/spring-cloud-config-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/environment/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="397" selection-start-line="397" selection-end-line="397" />
+        <state relative-caret-position="800">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/AbstractMessageChannelBinder.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthIndicatorReactiveAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="347">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/AbstractBinder.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="250">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaHealthCheckHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="149">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/ExtendedProducerProperties.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/util/ConcurrentReferenceHashMap.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/Health.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="545">
+          <caret line="228" column="39" selection-start-line="228" selection-start-column="34" selection-end-line="228" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/CompositeHealthIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/builder/SpringApplicationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#3214#3215#0" expanded="true" />
-            <element signature="e#3652#3653#0" expanded="true" />
-            <element signature="e#3696#3697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/util/MimeTypeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binding/BindableProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/ExtendedConsumerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/ExtendedPropertiesBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/BinderSpecificPropertiesProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaConsumerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaProducerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaExtendedBindingProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/ConsumerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/AbstractExtendedBindingProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaBindingProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/ExtendedBindingProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/config/ConfigDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream/2.1.0.RELEASE/spring-cloud-stream-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binding/BindingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="133">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="506" column="19" lean-forward="true" selection-start-line="506" selection-start-column="19" selection-end-line="506" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/KafkaMessageChannelBinder.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="928" column="9" selection-start-line="928" selection-start-column="9" selection-end-line="928" selection-end-column="9" />
+        <state relative-caret-position="528">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/2.1.0.RELEASE/spring-cloud-stream-binder-kafka-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaBinderConfigurationProperties.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/health/AbstractHealthIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="527" column="78" selection-start-line="527" selection-start-column="65" selection-end-line="527" selection-end-column="78" />
+        <state relative-caret-position="257">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-consumer/src/main/resources/application.yml">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="12" selection-end-line="19" />
+        <state relative-caret-position="141">
+          <caret line="185" column="31" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-producer/src/main/resources/application.yml">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/CompositeEnvironmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="125">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-producer/src/main/java/org/gao/stream/KafkaProducerApplication.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/SearchPathLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="59">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-producer/src/main/java/org/gao/stream/controller/ProducerController.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="24" selection-start-line="24" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="234" column="34" selection-start-line="234" selection-start-column="34" selection-end-line="234" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-consumer/src/main/java/org/gao/stream/client/ReceiveClient.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="22">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-consumer/src/main/java/org/gao/stream/KafkaConsumerApplication.java">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/AbstractScmEnvironmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="477">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/bootstrap/ConfigServerBootstrapConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/test/ConfigServerTestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/config-client.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/config-encrypt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/client/first-client-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -929,101 +1441,189 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix-eureka-server/pom.xml">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-client/2.1.0.RELEASE/spring-cloud-config-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/client/RetryProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/health/server-test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix-eureka-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-file/application-client.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="25" />
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="271">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-provicer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-file/application-client-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-stream-kafka-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="66">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="51" column="59" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-file/config-test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="281">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-client/2.1.0.RELEASE/spring-cloud-config-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/client/ConfigServicePropertySourceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="44">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/support/EnvironmentRepositoryProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/support/HttpEnvironmentRepositoryProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1641">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java/org/gao/cloud/config/server/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE.jar!/configserver.yml">
+    <entry file="file://$PROJECT_DIR$/config-file/application-client-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.4.RELEASE/spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="2996" column="28" selection-start-line="2996" selection-start-column="28" selection-end-line="2996" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.4.RELEASE/spring-boot-actuator-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/WebEndpointProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding>
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#2642#2643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/org/gao/config/client/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-context/2.1.0.RELEASE/spring-cloud-context-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/huaweicloud/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="309" column="61" selection-start-line="309" selection-start-column="61" selection-end-line="309" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="491">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="308">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1659,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31305903" />
               </list>
             </option>
           </splitter-proportions>
@@ -1071,7 +1671,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31305903" />
               </list>
             </option>
           </splitter-proportions>
@@ -1079,12 +1679,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javaEE-test</last-edited>
+          <last-edited>spring-cloud-config-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.31305903" />
               </list>
             </option>
           </splitter-proportions>
